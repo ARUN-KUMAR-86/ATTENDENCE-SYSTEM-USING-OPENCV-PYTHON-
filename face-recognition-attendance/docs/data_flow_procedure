@@ -1,0 +1,27 @@
+Webcam
+  ↓
+Frame Capture (OpenCV)
+  ↓
+Frame Preprocessing
+(resize, BGR → RGB)
+  ↓
+Face Detection
+(face_recognition.face_locations)
+  ↓
+Face Encoding
+(128-D feature vector)
+  ↓
+Compare with Known Encodings
+(dataset images)
+  ↓
+Best Match Selection
+(distance threshold)
+  ↓
+Attendance Logic
+(no duplicate per day)
+  ↓
+Excel File Update
+(attendance.xlsx)
+  ↓
+Live Display
+(bounding box + name)
