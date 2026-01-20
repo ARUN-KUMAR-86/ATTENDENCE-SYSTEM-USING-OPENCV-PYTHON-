@@ -1,5 +1,9 @@
 # Dataset Information – Face Recognition Attendance System
 
+This project automatically marks attendance by recognizing a person’s face using a webcam.
+It compares the live camera image with stored face photos to identify the person.
+When a known face is detected, the system saves the name, date, and time in an Excel file.
+This removes the need for manual attendance and reduces errors or proxy attendance.
 This folder contains sample face images used for training and testing
 the face recognition-based attendance system.
 
